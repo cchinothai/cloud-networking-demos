@@ -97,7 +97,7 @@ Think of Network ACLs as traffic cops stationed at every entry and exit point of
 
 ### Security groups vs. network ACLs
 
-Security groups operate at a narrower scope - the actual resources themselves. This means that it's within the subnet level. Network ACLs on the other hand will apply to all of the subnets in the current VPC. 
+Security groups operate at a narrower scope - the actual resources themselves. This means that it's within the instance level. Network ACLs on the other hand will apply to all of the subnets in the current VPC (subnet level). 
 
 ---
 
